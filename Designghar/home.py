@@ -12,10 +12,4 @@ bp_home=Blueprint("home",__name__)
 def home():
     return render_template("index.html")
 
-@bp_home.route("/signup/")
-def signup():
-	return render_template("signup.html")
 
-@bp_home.route("/login/")
-def login():
-	return render_template("login.html")

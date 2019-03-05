@@ -38,7 +38,6 @@ def create_app(test_config=None):
     def hello():
         return "Hello World!"
 
-
     #we import and call the home function to render homepage
     from . import home
     app.register_blueprint(home.bp_home)
@@ -53,3 +52,10 @@ def create_app(test_config=None):
 
     return app 
             
+
+
+
+
+
+
+
